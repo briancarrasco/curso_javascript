@@ -1,0 +1,68 @@
+/* Estilos básicos para mejorar la presentación */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #ddd;
+}
+
+input[type="text"].deshabilitado {
+  background-color: #f0f0f0;
+  border-color: #ddd;
+  cursor: not-allowed;
+}
+
+input[type="text"].deshabilitado:hover {
+  border-color: #ddd;
+}
+
+#correoGuardado {
+  margin-top: 20px;
+}
